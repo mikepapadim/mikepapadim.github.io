@@ -12,11 +12,11 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Site Title"
+title                    : "Michalis Papadimitriou"
 title_separator          : "-"
 name                     : "Your Name"
 description              : "An amazing website."
@@ -77,7 +77,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : mikepapadim
 facebook:
   username               :
   app_id                 :
@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Michalis Papadimitriou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  location         : "Manchester, UK"
+  email            :  "michail.papadimitriou@manchester.ac.uk"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -113,13 +113,13 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "mikepapadim"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "m_papadim"
   lastfm           :
-  linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
+  linkedin         : "michalis-papadimitriou" 
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
