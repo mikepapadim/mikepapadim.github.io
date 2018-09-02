@@ -77,7 +77,7 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : mikepapadim
+  username               : 
 facebook:
   username               :
   app_id                 :
@@ -115,7 +115,7 @@ author:
   foursquare       :
   github           : "mikepapadim"
   gitlab           :
-  google_plus      :"https://scholar.google.de/citations?user=HXBUZ0sAAAAJ&hl=en"
+  google_plus      :
   keybase          :
   instagram        : "m_papadim"
   lastfm           :
