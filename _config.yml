@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Michalis Papadimitriou"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  bio              : "PhD Candidate at The University of Manchester"
   location         : "Manchester, UK"
   email            :  "michail.papadimitriou@manchester.ac.uk"
   uri              :
@@ -117,7 +117,7 @@ author:
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        : "m_papadim"
+  instagram        : 
   lastfm           :
   linkedin         : "michalis-papadimitriou" 
   pinterest        :
@@ -126,6 +126,7 @@ author:
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "mikepapadim"
+  googlescholar    : "https://scholar.google.gr/citations?user=HXBUZ0sAAAAJ&hl=en"
   vine             :
   weibo            :
   xing             :
