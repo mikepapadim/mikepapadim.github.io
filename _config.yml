@@ -105,6 +105,7 @@ author:
   bio              : "PhD Candidate at The University of Manchester"
   location         : "Manchester, UK"
   email            :  "michail.papadimitriou@manchester.ac.uk"
+  googlescholar    : "https://scholar.google.gr/citations?user=HXBUZ0sAAAAJ&hl=en"
   uri              :
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -126,7 +127,6 @@ author:
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "mikepapadim"
-  googlescholar    : "https://scholar.google.gr/citations?user=HXBUZ0sAAAAJ&hl=en"
   vine             :
   weibo            :
   xing             :
@@ -257,6 +257,22 @@ compress_html:
     envs: development
 
 
+# Collections
+collections:
+  teaching:
+    output: true
+    permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+  talks:
+    output: true
+    permalink: /:collection/:path/
+
+
 # Defaults
 defaults:
   # _posts
@@ -267,6 +283,48 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _publications
+  - scope:
+      path: ""
+      type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comment: true
+  # _talks
+  - scope:
+      path: ""
+      type: talks
+    values:
+      layout: talk
+      author_profile: true
+share: true
