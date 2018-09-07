@@ -101,7 +101,7 @@ analytics:
 # Site Author
 author:
   name             : "Michalis Papadimitriou"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/mp.png"
   bio              : "PhD Candidate at The University of Manchester"
   location         : "Manchester, UK"
   email            :  "michail.papadimitriou@manchester.ac.uk"
