@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "contrast" # "air", "aqua", "default", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Michalis Papadimitriou"
+title                    : "mikepapadim.github.io"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Michalis Papadimitriou"
+description              : "My personal web-page"
+url                      : "https://mikepapadim.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -101,35 +101,19 @@ analytics:
 # Site Author
 author:
   name             : "Michalis Papadimitriou"
-  avatar           : "/assets/m.jpg"
+  avatar           : "/assets/mp.png"
   bio              : "PhD Candidate at The University of Manchester"
   location         : "Manchester, UK"
   email            :  "michail.papadimitriou@manchester.ac.uk"
   googlescholar    : "https://scholar.google.gr/citations?user=HXBUZ0sAAAAJ&hl=en"
   uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  home             : "/"
   bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
   github           : "mikepapadim"
-  gitlab           :
-  google_plus      :
-  keybase          :
-  instagram        : 
-  lastfm           :
+  google_plus      : #"https://scholar.google.gr/citations?user=HXBUZ0sAAAAJ&hl=en"
   linkedin         : "michalis-papadimitriou" 
-  pinterest        :
-  soundcloud       :
   stackoverflow    : "2279898/mikepapadim"
-  steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
-  tumblr           :
   twitter          : "mikepapadim"
-  vine             :
-  weibo            :
-  xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
 
 
@@ -265,13 +249,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  misc:
     output: true
     permalink: /:collection/:path/
-  talks:
-    output: true
-    permalink: /:collection/:path/
-
+ 
 
 # Defaults
 defaults:
@@ -311,20 +292,4 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
-  # _talks
-  - scope:
-      path: ""
-      type: talks
-    values:
-      layout: talk
-      author_profile: true
 share: true

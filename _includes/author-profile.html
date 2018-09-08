@@ -256,6 +256,10 @@
           </a>
         </li>
       {% endif %}
+      {% if author.googlescholar %}
+        <li><a href="{{ author.googlescholar }}"><i class="ai ai-google-scholar-square ai-fw"></i> Google Scholar</a></li>
+      {% endif %}
+
 
       {% include author-profile-custom-links.html %}
     </ul>
