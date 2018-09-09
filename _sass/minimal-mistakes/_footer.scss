@@ -14,7 +14,8 @@
   bottom: 0;
   height: auto;
   /* sticky footer fix end */
-  margin-top: -20em;
+  //margin-top: -20em;
+  margin-top: auto;
   color: $muted-text-color;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
